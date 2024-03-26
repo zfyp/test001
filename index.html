@@ -3,18 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="1.css" type="text/css" media="all" />
-    <title>Title</title>
+    <title>登录页面</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>初始化代码</h1>
-<h2>CSSv02的分支代码</h2>
 <div class="container">
-    <div class="box1">box1</div>
-    <div class="box2">box2</div>
-    <div class="box3">box3</div>
-    <div class="box4">box4</div>
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="login-box">
+        <h2>登录</h2>
+        <form action="">
+            <div class="input-group">
+                <label for="username">用户名</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">密码</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="options">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">记住我</label>
+                </div>
+                <a href="#" class="forgot-password">忘记密码?</a>
+            </div>
+            <div class="button-group">
+                <button type="submit" class="login-btn">登录</button>
+                <button type="button" class="register-btn">注册新用户</button>
+            </div>
+        </form>
+    </div>
 </div>
-<p>为什么没有变化</p>
 </body>
 </html>
